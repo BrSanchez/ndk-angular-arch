@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  font-size: clamp(12px, 2.5vw, 14px);
+}
+
+html,
+body,
+app-root
+{
+  margin: 0;
+  padding: 0;
+  min-width: 324px;
+  display: block;
+}
+
+*[id$="page"] > div {
+  min-height: 100dvh !important;
+  height: 100% !important;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+.pantalla-completa {
+  min-height: 100dvh !important;
+}
