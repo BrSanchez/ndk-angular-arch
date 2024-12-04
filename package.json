@@ -10,6 +10,9 @@
     "storybook": "ng run ndk-angular-arch:storybook",
     "build-storybook": "ng run ndk-angular-arch:build-storybook"
   },
+  "engines": {
+    "node": ">=20.18.0"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^18.2.0",
